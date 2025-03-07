@@ -184,7 +184,7 @@ ul {
 
 /* Aside Start */
 .aside {
-  width: 230px;
+  width: 235px;
   height: 100%;
   position: fixed;
   left: 0;
@@ -386,8 +386,8 @@ h3.my-profession {
 }
 
 .home .home-img img {
-  width: 410px;
-  height: 410px;
+  width: 385px;
+  height: 385px;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 1.1s, 2.1s;
