@@ -891,10 +891,20 @@ h3.my-profession {
   .education .education-item,
   .about .about-content .education,
   .about .about-content .experience,
+  .education .container .education, 
+  .education .container .experience,
   .about .about-content .skills,
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .education .container .education {
+    margin-top: 0;
+  }
+
+  .education .container .experience {
+    margin-top: 80px;
   }
 
   .btn {
